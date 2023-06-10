@@ -16,6 +16,10 @@ public class Main {
     private static Logger logger;
     private static final Owner OWNER = new Owner();
 
+    /**
+     * Zarządzanie bazą zwierząt
+     * @param args nieużywane argumenty aplikacji
+     */
     public static void main(String[] args) {
         init();
         Scanner scanner = new Scanner(System.in);
